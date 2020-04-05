@@ -1,1 +1,1 @@
-# Assignment-2-Prakruthi
+# Assignment-Prakruthi
