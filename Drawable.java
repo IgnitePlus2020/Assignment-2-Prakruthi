@@ -1,18 +1,22 @@
 package com.tgt.igniteplus;
 // A simple program to demonstrate interface
-interface Drawable{
+interface Drawable
+{
     void draw();
 }
-//Implementation: by second user
-class Rectangle implements Drawable{
+class Rectangle implements Drawable
+{
     public void draw(){System.out.println("drawing rectangle");}
 }
-class Circle implements Drawable{
+class Circle implements Drawable
+{
     public void draw(){System.out.println("drawing circle");}
 }
-//Using interface: by third user
-class TestInterface1{
-    public static void main(String args[]){
-        Drawable d=new Circle();//In real scenario, object is provided by method e.g. getDrawable()
+class TestInterface1
+{
+    public static void main(String args[])
+    {
+        Drawable d=new Circle();
         d.draw();
-    }}
+    }
+}
